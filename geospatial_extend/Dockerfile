@@ -11,4 +11,4 @@ RUN install2.r --error \
     SpaDES.tools \
     ## a few packages from github
     # && R -e "devtools::install_github('PredictiveEcology/SpaDES.tools', dependencies = TRUE)" \
-    && R -e "devtools::install_github('land-4-bees/beecoSp')" \
+    # && R -e "devtools::install_github('land-4-bees/beecoSp')" \
