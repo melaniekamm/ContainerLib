@@ -9,5 +9,5 @@ RUN install2.r --error \
     tictoc \
     tigris \
     SpaDES.tools \
-    ## a few packages from github
-    && R -e "devtools::install_github('land-4-bees/beecoSp')" \
+    ## add my package from github
+    && installGithub.r land-4-bees/beecoSp
