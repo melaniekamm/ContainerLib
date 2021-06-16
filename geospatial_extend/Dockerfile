@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.3
+FROM rocker/geospatial:4.0.3
 MAINTAINER "Melanie Kammerer" melanie.a.kammerer@gmail.com
 
 RUN install2.r --error \
