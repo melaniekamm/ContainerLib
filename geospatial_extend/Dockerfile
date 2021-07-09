@@ -10,5 +10,6 @@ RUN install2.r --error \
     tigris \
     SpaDES.tools \
     pryr \
+    gtools \
     ## add my package from github
     && installGithub.r land-4-bees/beecoSp
