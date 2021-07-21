@@ -14,4 +14,4 @@ RUN install2.r --error \
     lobstr \
     ## add my package from github
     && installGithub.r land-4-bees/beecoSp \
-    land-4-bees/SpeedyBeeModel
+    land-4-bees/SpeedyBeeModel \
