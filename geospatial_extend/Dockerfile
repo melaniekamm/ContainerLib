@@ -12,6 +12,7 @@ RUN install2.r --error \
     pryr \
     gtools \
     lobstr \
+    landscapemetrics \
     ## add my package from github
     && installGithub.r land-4-bees/beecoSp \
     land-4-bees/SpeedyBeeModel \
