@@ -1,4 +1,4 @@
-FROM rocker/geospatial:4.0.3
+FROM rocker/geospatial:4.1.2
 MAINTAINER "Melanie Kammerer" melanie.a.kammerer@gmail.com
 
 RUN install2.r --error \
@@ -13,6 +13,8 @@ RUN install2.r --error \
     gtools \
     lobstr \
     landscapemetrics \
+    gdalUtils \
+    gdalUtilities \
     ## add my package from github
     && installGithub.r land-4-bees/beecoSp \
     land-4-bees/SpeedyBeeModel \
