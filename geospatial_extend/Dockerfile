@@ -14,7 +14,11 @@ RUN install2.r --error \
     lobstr \
     landscapemetrics \
     gdalUtils \
-    gdalUtilities \
+    gdalUtilities
+
+ARG CONTAINER_VERSION=notaversion
+
     ## add my package from github
-    && installGithub.r land-4-bees/beecoSp \
+RUN installGithub.r land-4-bees/beecoSp \
     land-4-bees/SpeedyBeeModel \
+    melaniekamm/rFIA
